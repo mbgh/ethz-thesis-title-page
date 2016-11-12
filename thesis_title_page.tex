@@ -1,0 +1,103 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%                                                                %
+%%%%%     Document Class                                             %
+%%%%%                                                                %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{scrartcl}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%                                                                %
+%%%%%     Preamble                                                   %
+%%%%%                                                                %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+
+\usepackage[top=3cm,bottom=2cm]{geometry}
+\usepackage{setspace}
+
+\usepackage{hyperref} %% For creating the PDF meta-data information
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%                                                                %
+%%%%%     Document Settings                                          %
+%%%%%                                                                %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Ph.D. Thesis Titlepage} %% Only used for PDF meta-data information
+\author{John Doe} %% Only used for PDF meta-data information
+
+% Use the 'hyperref' package in order to set PDF file meta data.
+\makeatletter
+\hypersetup{
+ pdftitle    = {\@title},
+ pdfauthor   = {\@author, <john@doe.com>},
+% pdfkeywords = {<KEYWORDS>},
+% pdfsubject  = {<SUBJECT>}
+}
+\makeatother
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%                                                                %
+%%%%%     Start of Document                                          %
+%%%%%                                                                %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\pagestyle{empty}
+
+\begin{centering}
+
+\vspace{1cm}
+DISS. ETH NO. 12345
+
+\vspace*{1.5cm}
+{\setstretch{1.0}
+{\huge \uppercase{This is the Awesome Multi-Line\\Title of my Thesis}\par}
+}
+\vspace*{1cm}
+
+{\setstretch{1.5}
+A thesis submitted to attain the degree of\\
+DOCTOR OF SCIENCES of ETH ZURICH\\
+(Dr. sc. ETH Zurich)\par
+}
+\vspace*{1cm}
+
+{\setstretch{1.5}
+presented by\\
+\uppercase{John Doe}\par
+}
+
+\vspace*{1cm}
+M.Sc.,\\
+Sample University\\
+\vspace*{1cm}
+
+born on 01.01.2001\\
+\vspace*{0.5cm}
+
+citizen of\\
+Samplecountry\\
+\vspace*{2cm}
+
+accepted on the recommendation of\\
+\vspace*{0.5cm}
+
+Prof. Dr. The Examiner\\
+Prof. Dr. First Co-Examiner\\
+Prof. Dr. Second Co-Examiner\\
+\vspace*{3cm}
+2001\\
+
+\end{centering}
+
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%                                                                %
+%%%%%     End of Document                                            %
+%%%%%                                                                %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
